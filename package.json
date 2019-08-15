@@ -1,0 +1,29 @@
+{
+  "name": "doctor_koa2",
+  "version": "1.0.0",
+  "description": "a doctor Triage system Api based on Koa 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sanily/doctor_koa2.git"
+  },
+  "keywords": [
+    "doctor",
+    "koa2"
+  ],
+  "author": "jinxiangli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "fs": "^0.0.1-security",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.0"
+  }
+}
